@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: hsl(228, 67%, 85%); /* Menambahkan warna latar belakang */
+    padding: 20px;
+    border-radius: 8px; /* Sudut membulat pada header */
+    display: flex;
+    justify-content: center; /* Menyusun konten secara horizontal */
+    align-items: center; /* Menyusun konten secara vertikal */
+    flex-direction: column; /* Menyusun konten secara vertikal (gambar, nama, deskripsi) */
+}
+
+.icon a{
+    color:#000000;
+    text-decoration: none;
+    padding: 20px;
+}
+.icon a:hover{
+    color:#2600ff;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #e1e4e8;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.justify-text {
+    text-align: justify; /* Meratakan teks di kedua sisi */
+}
+
+
+header h1 {
+    font-size: 2.4em;
+    color: #000000;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #000000;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: hsl(228, 67%, 85%); /* Latar belakang warna untuk setiap section */
+    border-radius: 8px; /* Sudut membulat untuk setiap section */
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+ul li p {
+    color: #555;
+    margin-left: 20px;
+}
+
+section p {
+    color: #555;
+    font-size: 1em;
+}
+
+section .skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+
+section .skills ul li {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+section .skills ul li:hover {
+    background-color: #f1f1f1;
+}
+
+section .experience ul li,
+section .certifications ul li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+}
+
+section .experience ul li p,
+section .certifications ul li p {
+    color: #555;
+    margin-left: 20px;
+}
+
+section .education ul li {
+    padding: 12px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+section .education ul li strong {
+    color: #2a3d66;
+}
+
+section:not(:last-child) {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #2a3d66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #1d2a44;
+}
